@@ -2,14 +2,12 @@ body {
     background-color:#d2f6c5
 }
 
-header {
-    background-color: #28df99;
+.header-top {
+    height: 150px;
+    background-color: #28df99
 }
 
 .nav-custom {
     background-color: #99f3bd;
 }
 
-button {
-    background-color: red;
-}
