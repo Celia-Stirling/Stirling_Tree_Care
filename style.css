@@ -11,3 +11,19 @@ body {
     background-color: #99f3bd;
 }
 
+.card {
+    width: 18rem;
+}
+
+#why-choose-us {
+    background-color: #fff;
+}
+
+#testimonials {
+    background-color: #99f3bd;
+}
+
+footer {
+    background-color: #28df99;
+    height: 60px;
+}
