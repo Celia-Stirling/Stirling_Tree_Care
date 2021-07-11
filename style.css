@@ -14,16 +14,30 @@ h1, h2, h3, h4, h5 {
 
 .nav-custom {
     background-color: #fff;
-    width: 40%;
+    width: 600px;
     margin: 0 auto;
     position: relative;
     bottom: 25px;
+    z-index: 1;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 700px) {
     .nav-custom {
-      width: 70%;
+      width: 80%;
     }
+  }
+
+#photos {
+    position: relative;
+    bottom: 55px;
+}
+
+.carousel-photo {
+    background-image: url("Tree_test_photo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
   }
 
 .card {
