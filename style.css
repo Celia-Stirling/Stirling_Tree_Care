@@ -12,6 +12,44 @@ h1, h2, h3, h4, h5 {
     background-color: #28df99
 }
 
+.logo {
+    width: 50%;
+}
+
+.contact-details {
+    font-size: 1.5rem;
+    width: 50%;
+    height: 150px;
+}
+
+@media screen and (max-width: 615px) {
+    .contact-details {
+      font-size: 1rem;
+    }
+  }
+
+#header-phone {
+   width: 60%;
+}
+
+@media screen and (max-width: 992px) {
+    #header-phone{
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+#header-email {
+    width: 40%;
+    text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+    #header-email {
+      width: 100%;
+    }
+  }
+
 .nav-custom {
     background-color: #fff;
     width: 600px;
