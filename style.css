@@ -7,13 +7,20 @@ h1, h2, h3, h4, h5 {
     font-family: 'Sniglet', cursive;
 }
 
+ /* Header */
+
 .header-top {
     height: 150px;
     background-color: #28df99
 }
 
 .logo {
-    width: 50%;
+    width: 30%;
+    text-align: center;
+}
+
+.logo img {
+  width: 50%;
 }
 
 .contact-details {
@@ -22,33 +29,47 @@ h1, h2, h3, h4, h5 {
     height: 150px;
 }
 
+#header-phone {
+  width: 60%;
+}
+
+#header-email {
+   width: 40%;
+   text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .logo {
+    width: 50%;
+  }
+  .logo img {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #header-phone{
+    width: 100%;
+    text-align: center;
+  }
+  #header-email {
+    width: 100%;
+  }
+  .logo img {
+    width: 40%;
+  }
+}
+
 @media screen and (max-width: 615px) {
     .contact-details {
       font-size: 1rem;
     }
-  }
-
-#header-phone {
-   width: 60%;
-}
-
-@media screen and (max-width: 992px) {
-    #header-phone{
-      width: 100%;
-      text-align: center;
+    .logo img {
+      width: 50%;
     }
   }
 
-#header-email {
-    width: 40%;
-    text-align: center;
-}
-
-@media screen and (max-width: 992px) {
-    #header-email {
-      width: 100%;
-    }
-  }
+  /* Nav-bar */
 
 .nav-custom {
     background-color: #fff;
@@ -65,6 +86,8 @@ h1, h2, h3, h4, h5 {
     }
   }
 
+  /* Photo Carousel */
+
 #photos {
     position: relative;
     bottom: 55px;
@@ -78,17 +101,25 @@ h1, h2, h3, h4, h5 {
     height: 400px;
   }
 
+  /* Our Services */
+
 .card {
     width: 18rem;
 }
+
+/* Why Choose Us */
 
 #why-choose-us {
     background-color: #fff;
 }
 
+/* Testimonials */
+
 #testimonials {
     background-color: #99f3bd;
 }
+
+/* Footer */
 
 footer {
     background-color: #28df99;
