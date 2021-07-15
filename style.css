@@ -113,16 +113,6 @@ h1, h2, h3, h4, h5 {
     background-color: #fff;
 }
 
-#why-choose-us ul {
-  width: 300px;
-}
-
-@media screen and (min-width: 992px) {
-  #why-choose-us ul {
-    width: 600px;
-  }
-}
-
 /* Testimonials */
 
 #testimonials {
