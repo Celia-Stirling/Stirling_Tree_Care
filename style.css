@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5 {
  /* Header */
 
 .header-top {
-    height: 150px;
+    height: 160px;
     background-color: #28df99
 }
 
@@ -72,19 +72,12 @@ h1, h2, h3, h4, h5 {
   /* Nav-bar */
 
 .nav-custom {
-    background-color: #fff;
-    width: 600px;
+    background-color: #d2f6c5;
     margin: 0 auto;
     position: relative;
     bottom: 25px;
     z-index: 1;
 }
-
-@media screen and (max-width: 700px) {
-    .nav-custom {
-      width: 80%;
-    }
-  }
 
   /* Photo Carousel */
 
@@ -94,12 +87,43 @@ h1, h2, h3, h4, h5 {
 }
 
 .carousel-photo {
-    background-image: url("Tree_test_photo.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
   }
+
+.carousel-photo-1 {
+    background-image: url("carousel-photo-1.jpg");
+}
+
+.carousel-photo-2 {
+    background-image: url("carousel-photo-2.jpg");
+}
+
+.carousel-photo-3 {
+    background-image: url("carousel-photo-3.jpg");
+}
+
+.carousel-photo-4 {
+    background-image: url("carousel-photo-4.jpg");
+}
+
+.carousel-photo-5 {
+    background-image: url("carousel-photo-5.jpg");
+}
+
+.carousel-photo-6 {
+    background-image: url("carousel-photo-6.jpg");
+}
+
+.carousel-photo-7 {
+    background-image: url("carousel-photo-7.jpg");
+}
+
+.carousel-photo-8 {
+    background-image: url("carousel-photo-8.jpg");
+}
 
   /* Our Services */
 
